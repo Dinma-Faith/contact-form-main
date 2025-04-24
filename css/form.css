@@ -1,12 +1,26 @@
-form {
-    max-width: 500px;
-    margin: 0 auto;
-    background: var(--white);
-    padding-block: 2rem;
-    padding-right: 45px;
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: var(--white);
+  padding-bottom: 2rem;
+  padding-top: 0.1rem;
     padding-left: 16px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  padding-right: 45px;
+
+
+    /* max-width: 500px; */
+    /* margin: 0 auto; */
+    /* background: var(--white); */
+    /* padding-block: 2rem;
+    padding-right: 45px;
+    padding-left: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   }
 
   h2 {
@@ -22,13 +36,17 @@ form {
     margin-bottom: 0.5rem;
   }
 
-  input,
+  .input,
   textarea {
     width: 100%;
     padding: 0.75rem;
     border-radius: 5px;
     border: 1px solid var(--grey-500);
     font-size: 16px;
+  }
+
+  textarea {
+    height: 32vh;
   }
 
   input:focus,
@@ -45,6 +63,8 @@ form {
 
   .radio-group {
     display: flex;
+    flex-direction: column;
+    width: 100%;
     gap: 1rem;
     margin-top: 0.5rem;
   }
@@ -53,10 +73,21 @@ form {
     margin-right: 0.5rem;
   }
 
+  .radio-input {
+    border: 1px solid var(--grey-500);
+    padding: 0.78rem;
+    width: 100%;
+    border-radius: 5px;
+  }
+
   .checkbox-group {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
     margin-top: 1rem;
+    padding-block: 1rem;
+    padding-right: 1rem;
+    padding-left: 0;
   }
 
   .checkbox-group input {
@@ -73,7 +104,7 @@ form {
   }
 
   button {
-    width: 100%;
+    width: 95%;
     padding: 0.75rem;
     font-size: 16px;
     font-weight: 700;
