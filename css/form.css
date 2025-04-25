@@ -64,8 +64,8 @@ textarea:active {
   cursor: pointer;
 }
 
-.radio-input input:checked, 
-    .checkbox-group input:checked {
+.radio-input input:checked,
+.checkbox-group input:checked {
   accent-color: var(--green-600);
   background-color: var(--white);
 }
