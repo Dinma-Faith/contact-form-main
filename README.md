@@ -6,7 +6,6 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -28,10 +27,6 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
 - [ Solution URL](https://github.com/Dinma-Faith/contact-form-main/tree/develop)
@@ -46,7 +41,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [web.dev](https://web.dev/learn/forms/javascript)
+- [react.dev](https://react.dev/learn/responding-to-events)
 
 
 ## Author
